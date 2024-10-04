@@ -31,6 +31,10 @@ external_components:
     components:
       - esp_adf
 
+micro_wake_word:
+  models:
+    - model: github://rufinus/korvo-esphome/blob/develop/ma_win.json
+
 # Enable logging
 logger:
 
