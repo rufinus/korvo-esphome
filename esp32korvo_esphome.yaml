@@ -33,7 +33,7 @@ external_components:
 
 micro_wake_word:
   models:
-    - model: github://rufinus/korvo-esphome/blob/develop/ma_win.json
+    - model: github://rufinus/korvo-esphome/ma_win.json@develop
 
 # Enable logging
 logger:
