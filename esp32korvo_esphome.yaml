@@ -35,12 +35,7 @@ external_components:
 micro_wake_word:
   vad:
   models: 
-    - model: 
-        url: https://github.com/rufinus/korvo-esphome.git
-        file: ma_win.json
-        ref: develop
-        refresh: 5m
-        type: git
+    - model: github:://rufinus/korvo-esphome/ma_win.json@develop
   on_wake_word_detected:
     then:
       - voice_assistant.start:
