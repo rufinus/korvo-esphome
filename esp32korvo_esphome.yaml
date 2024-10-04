@@ -32,8 +32,12 @@ external_components:
       - esp_adf
 
 micro_wake_word:
+  vad:
   models:
     - model: github://rufinus/korvo-esphome/ma_win.json@develop
+  on_wake_word_detected:
+    then:
+      - voice_assistant.start:    
 
 # Enable logging
 logger:
