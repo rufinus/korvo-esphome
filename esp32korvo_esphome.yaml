@@ -274,7 +274,7 @@ sensor:
     platform: adc
     internal: true
     pin: 39
-    attenuation: 11db
+    attenuation: 12db
     update_interval: 15ms
     filters:
       - median:
