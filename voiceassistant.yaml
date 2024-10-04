@@ -113,7 +113,7 @@ speaker:
     dac_type: external
     i2s_audio_id: codec
     i2s_dout_pin: GPIO39
-    mode: mono
+    channel: mono
 
 microphone:
   - platform: i2s_audio
