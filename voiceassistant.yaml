@@ -211,7 +211,7 @@ switch:
     restore_mode: RESTORE_DEFAULT_ON
     entity_category: config
     on_turn_on:
-      - lambda: id(voice_asst).set_use_wake_word(true)
+      - lambda: id(voice_asst).set_use_wake_word(true);
       - if:
           condition:
             not:
