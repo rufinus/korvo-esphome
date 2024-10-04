@@ -42,8 +42,9 @@ api:
 ##### OTA PASSWORD #####
 ota:
   platform: esphome
-  password: ${wifi_password}
-  safe_mode: true
+  password: ${wifi_password}  
+
+safe_mode:  
   reboot_timeout: 3min
   num_attempts: 3
 
