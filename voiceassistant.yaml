@@ -63,6 +63,7 @@ api:
 
 ota:
   platform: esphome
+  password: ${wifi_password} 
 
 text_sensor:
   - platform: wifi_info
