@@ -35,7 +35,7 @@ external_components:
 micro_wake_word:
   vad:
   models: 
-    - model: github:://rufinus/korvo-esphome/ma_win.json@develop
+    - model: https://github.com/rufinus/korvo-esphome/raw/refs/heads/develop/ma_win.json
   on_wake_word_detected:
     then:
       - voice_assistant.start:
