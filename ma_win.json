@@ -3,9 +3,13 @@
   "wake_word": "mavin",
   "author": "Ludwig Ruderstaller",
   "model": "ma_win.tflite",
-  "version": 1,
+  "trained_languages": ["de"],
+  "version": 2,
   "micro": {
     "probability_cutoff": 0.5,
-    "sliding_window_size": 10
+    "sliding_window_size": 5,
+    "feature_step_size": 10,
+    "tensor_arena_size": 22800,
+    "minimum_esphome_version": "2024.7.0"
   }
 }
