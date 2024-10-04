@@ -38,7 +38,8 @@ micro_wake_word:
     - model: github://rufinus/korvo-esphome/ma_win.json@develop
   on_wake_word_detected:
     then:
-      - voice_assistant.start:    
+      - voice_assistant.start:
+          wake_word: !lambda return wake_word;
 
 # Enable logging
 logger:
